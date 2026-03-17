@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="SpedImporter.Application/SpedImporter.Application.csproj" />
+  <Project Path="SpedImporter.Desktop/SpedImporter.Desktop.csproj" Id="dc6adb8e-2fa4-4e19-aa6c-0ee0b6be38be" />
+  <Project Path="SpedImporter.Domain/SpedImporter.Domain.csproj" />
+  <Project Path="SpedImporter.Infrastructure/SpedImporter.Infrastructure.csproj" />
+  <Project Path="SpedImporter.Runner/SpedImporter.Runner.csproj" />
+  <Project Path="SpedImporter.Tests/SpedImporter.Tests.csproj" />
+</Solution>
