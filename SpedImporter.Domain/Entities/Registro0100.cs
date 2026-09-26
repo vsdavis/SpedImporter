@@ -2,6 +2,7 @@ namespace SpedImporter.Domain.Entities;
 
 /// <summary>
 /// Registro 0100 — Dados do Contabilista
+/// Exemplo abaixo utiliza dados inteiramente fictícios para fins de teste.
 /// Exemplo: |0100|ANDREIA LOBATO DE OLIVEIRA SILVA|29778618828|1SP253708||06046003|AV PIRACEMA|155|GALPAO 01|SITIO TAMBORE|01136275900||cpfiscal@totalexpress.com.br|3505708|
 /// </summary>
 public class Registro0100

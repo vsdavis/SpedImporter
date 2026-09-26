@@ -2,7 +2,9 @@
 
 namespace SpedImporter.Infrastructure.Parsing;
 
-public class Registro0000Parser
+public class Registro0000Parser // Esta classe é responsável por analisar uma linha do arquivo SPED e criar um objeto Registro0000 a partir dos dados contidos nessa linha.
+                                // O método Parse recebe uma linha do arquivo SPED, um identificador de importação e o número da linha, e retorna um objeto
+                                // Registro0000 preenchido com os dados extraídos da linha.
 {
     public Registro0000 Parse(SpedLine line, Guid importacaoId, int numeroLinha)
     {
@@ -23,4 +25,5 @@ public class Registro0000Parser
             LinhaOriginal = line.Raw
         };
     }
+    // O registro 0000 é o registro de abertura do arquivo SPED, e contém informações básicas sobre a empresa e o período de apuração dos dados contidos no arquivo.
 }

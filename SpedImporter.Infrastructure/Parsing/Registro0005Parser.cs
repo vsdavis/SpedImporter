@@ -2,7 +2,7 @@ using SpedImporter.Domain.Entities;
 
 namespace SpedImporter.Infrastructure.Parsing;
 
-public class Registro0005Parser
+public class Registro0005Parser // Esta classe é responsável por analisar uma linha do arquivo SPED e criar um objeto Registro0005 a partir dos dados contidos nessa linha.
 {
     public Registro0005 Parse(SpedLine line, Guid importacaoId, int numeroLinha)
     {
@@ -24,4 +24,5 @@ public class Registro0005Parser
             LinhaOriginal = line.Raw
         };
     }
+    //  o registro 0005 é o registro de identificação do estabelecimento, e contém informações adicionais sobre a empresa, como o nome fantasia, endereço, telefone e email.
 }
